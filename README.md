@@ -1,3 +1,5 @@
+<img width="2560" height="1504" alt="image" src="https://github.com/user-attachments/assets/4ebc5f58-0306-42eb-8c1f-a66242977eba" />
+
 # 企业问题会诊专家团 (Enterprise Consult Expert Team)
 
 WorkBuddy Team 型专家包：像名医会诊一样诊断企业难题——战略、财务、组织、运营、市场、风控、数字化七路专科顾问联合会诊，定位根因并开出可落地的整改处方。
