@@ -1,0 +1,186 @@
+{
+  "name": "enterprise-consult-expert-team",
+  "version": "1.1.2",
+  "description": "8-expert enterprise problem consultation team: symptom intake, parallel multi-domain checkup (strategy, finance, org, operations, growth, risk, digital), root-cause consultation, and an actionable 30/60/90-day prescription.",
+  "author": {
+    "name": "tanzi",
+    "email": "tanzi@meisheng.cn"
+  },
+  "agents": [
+    "./agents/enterprise-consult-expert-team-team-lead.md",
+    "./agents/enterprise-consult-expert-team-strategy.md",
+    "./agents/enterprise-consult-expert-team-finance.md",
+    "./agents/enterprise-consult-expert-team-org-hr.md",
+    "./agents/enterprise-consult-expert-team-operations.md",
+    "./agents/enterprise-consult-expert-team-growth.md",
+    "./agents/enterprise-consult-expert-team-risk.md",
+    "./agents/enterprise-consult-expert-team-digital.md"
+  ],
+  "expertType": "team",
+  "agentName": "enterprise-consult-expert-team-team-lead",
+  "teamInfo": {
+    "leadAgent": "enterprise-consult-expert-team-team-lead",
+    "memberAgents": [
+      "enterprise-consult-expert-team-strategy",
+      "enterprise-consult-expert-team-finance",
+      "enterprise-consult-expert-team-org-hr",
+      "enterprise-consult-expert-team-operations",
+      "enterprise-consult-expert-team-growth",
+      "enterprise-consult-expert-team-risk",
+      "enterprise-consult-expert-team-digital"
+    ]
+  },
+  "displayName": {
+    "en": "Enterprise Consult Expert Team",
+    "zh": "企业问题会诊专家团"
+  },
+  "profession": {
+    "en": "Enterprise Consult Expert Team",
+    "zh": "企业问题会诊专家团"
+  },
+  "displayDescription": {
+    "en": "Like a medical board for your business: seven specialists in strategy, finance, org, operations, growth, risk and digital jointly diagnose root causes and prescribe an actionable recovery plan.",
+    "zh": "像名医会诊般诊断企业难题，战略、财务、组织、运营、市场、风控、数字化七科会诊，定位根因开出落地处方"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "我们公司增长停滞快一年了，帮我做一次全面的经营会诊",
+    "en": "Our company's growth has stalled for almost a year. Please run a full business diagnosis for us"
+  },
+  "plugin": "enterprise-consult-expert-team",
+  "tags": [
+    {
+      "en": "Enterprise Diagnosis",
+      "zh": "企业诊断"
+    },
+    {
+      "en": "Strategy Consulting",
+      "zh": "战略咨询"
+    },
+    {
+      "en": "Business Improvement",
+      "zh": "经营改善"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Our company's growth has stalled for almost a year. Please run a full business diagnosis for us",
+      "zh": "我们公司增长停滞快一年了，帮我做一次全面的经营会诊"
+    },
+    {
+      "en": "Our team has poor execution and departments keep blaming each other. Where does the problem really lie?",
+      "zh": "团队执行力差、部门之间互相推诿，问题到底出在哪里？"
+    },
+    {
+      "en": "Help me analyze the root cause of our cash flow pressure and give an improvement plan",
+      "zh": "帮我分析公司现金流紧张的根本原因，并给出改善方案"
+    }
+  ],
+  "members": [
+    {
+      "id": "enterprise-consult-expert-team-team-lead",
+      "displayName": {
+        "en": "Zhen Mingduan",
+        "zh": "甄明断"
+      },
+      "profession": {
+        "en": "Chief Consultation Officer",
+        "zh": "首席会诊官"
+      },
+      "avatar": "avatars/enterprise-consult-expert-team-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "enterprise-consult-expert-team-strategy",
+      "displayName": {
+        "en": "Zhan Honglve",
+        "zh": "展宏略"
+      },
+      "profession": {
+        "en": "Strategy Advisor",
+        "zh": "战略规划顾问"
+      },
+      "avatar": "avatars/enterprise-consult-expert-team-strategy.png",
+      "role": "member"
+    },
+    {
+      "id": "enterprise-consult-expert-team-finance",
+      "displayName": {
+        "en": "Zhang Mingzhang",
+        "zh": "章明账"
+      },
+      "profession": {
+        "en": "Financial Analyst",
+        "zh": "财务分析师"
+      },
+      "avatar": "avatars/enterprise-consult-expert-team-finance.png",
+      "role": "member"
+    },
+    {
+      "id": "enterprise-consult-expert-team-org-hr",
+      "displayName": {
+        "en": "Ren Jucai",
+        "zh": "任聚才"
+      },
+      "profession": {
+        "en": "Org & HR Expert",
+        "zh": "组织人力专家"
+      },
+      "avatar": "avatars/enterprise-consult-expert-team-org-hr.png",
+      "role": "member"
+    },
+    {
+      "id": "enterprise-consult-expert-team-operations",
+      "displayName": {
+        "en": "Liu Chang",
+        "zh": "刘畅"
+      },
+      "profession": {
+        "en": "Operations & Process Expert",
+        "zh": "运营流程专家"
+      },
+      "avatar": "avatars/enterprise-consult-expert-team-operations.png",
+      "role": "member"
+    },
+    {
+      "id": "enterprise-consult-expert-team-growth",
+      "displayName": {
+        "en": "Jin Tuoxin",
+        "zh": "金拓新"
+      },
+      "profession": {
+        "en": "Growth & Marketing Expert",
+        "zh": "市场增长专家"
+      },
+      "avatar": "avatars/enterprise-consult-expert-team-growth.png",
+      "role": "member"
+    },
+    {
+      "id": "enterprise-consult-expert-team-risk",
+      "displayName": {
+        "en": "Du Jianwei",
+        "zh": "杜渐微"
+      },
+      "profession": {
+        "en": "Risk & Compliance Expert",
+        "zh": "风控合规专家"
+      },
+      "avatar": "avatars/enterprise-consult-expert-team-risk.png",
+      "role": "member"
+    },
+    {
+      "id": "enterprise-consult-expert-team-digital",
+      "displayName": {
+        "en": "Lu Yunqiao",
+        "zh": "陆云桥"
+      },
+      "profession": {
+        "en": "Digital Transformation Advisor",
+        "zh": "数字化转型顾问"
+      },
+      "avatar": "avatars/enterprise-consult-expert-team-digital.png",
+      "role": "member"
+    }
+  ]
+}
